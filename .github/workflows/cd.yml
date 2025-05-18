@@ -42,3 +42,4 @@ jobs:
     #- name: Update Kubernetes deployment
     #  run: |
     #    kubectl set image deployment/motus-users-ms motus-users-ms=$GCR_REGISTRY/$IMAGE_NAME:$IMAGE_TAG
+    
