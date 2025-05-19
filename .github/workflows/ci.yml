@@ -18,6 +18,7 @@ jobs:
       with:
         node-version-file: 'app/motus-users-ms/.nvmrc'
         cache: 'yarn'
+        cache-dependency-path: 'app/motus-users-ms/yarn.lock'
 
     - name: Install dependencies
       working-directory: app/motus-users-ms
