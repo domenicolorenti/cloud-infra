@@ -30,7 +30,7 @@ jobs:
 
     - name: Build and push Docker image
       env:
-        GCR_REGISTRY: europe-west8-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/myreg
+        GCR_REGISTRY: europe-west8-docker.pkg.dev/mylab-451518/myreg
         IMAGE_NAME: motus-users-ms
         IMAGE_TAG: ${{ github.sha }}
       run: |
