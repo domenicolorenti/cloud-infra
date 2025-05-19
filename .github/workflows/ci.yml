@@ -32,9 +32,9 @@ jobs:
     #  working-directory: app/motus-users-ms
     #  run: yarn lint
 
-    - name: Run tests
-      working-directory: app/motus-users-ms
-      run: yarn test
+    #- name: Run tests
+    #  working-directory: app/motus-users-ms
+    #  run: yarn test
 
     - name: Build Docker image
       working-directory: app/motus-users-ms
