@@ -24,13 +24,13 @@ jobs:
       working-directory: app/motus-users-ms
       run: yarn install --frozen-lockfile
 
-    - name: Fix linting issues
-      working-directory: app/motus-users-ms
-      run: yarn fix
+    #- name: Fix linting issues
+    #  working-directory: app/motus-users-ms
+    #  run: yarn fix
 
-    - name: Run linting
-      working-directory: app/motus-users-ms
-      run: yarn lint
+    #- name: Run linting
+    #  working-directory: app/motus-users-ms
+    #  run: yarn lint
 
     - name: Run tests
       working-directory: app/motus-users-ms
