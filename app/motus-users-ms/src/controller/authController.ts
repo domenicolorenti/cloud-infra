@@ -3,7 +3,7 @@ import User from '../models/user';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import config from '../config/config';
-import { ObjectId, Types } from 'mongoose';
+import { Types } from 'mongoose';
 import { AccessLevel } from '../models/enum';
 import { checkPermission } from '../utils/authUtils';
 
